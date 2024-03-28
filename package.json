@@ -43,6 +43,6 @@
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "find-up": "^7.0.0"
+    "find-up": "5.0.0"
   }
 }

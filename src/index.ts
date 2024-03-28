@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
-import { findUp } from 'find-up'
+import findUp from 'find-up'
 
 export type PackageManager = 'pnpm' | 'yarn' | 'npm' | 'bun'
 
