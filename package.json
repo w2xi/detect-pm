@@ -25,15 +25,15 @@
       }
     }
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "prepublishOnly": "nr build",
     "dev": "nr build --watch",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "release": "bumpp --commit --push --tag && pnpm publish"
   },
+  "files": [
+    "dist"
+  ],
   "author": "w2xi",
   "license": "MIT",
   "devDependencies": {

@@ -16,8 +16,12 @@ $ pnpm add detect-pm
 
 ## Usage
 
+Support ES module and CommonJS:
+
 ```js
 import { detectPackageManager } from 'detect-pm'
+// or
+// const { detectPackageManager } = require('detect-pm')
 
 detectPackageManager().then(pm => {
     console.log(pm) // one of npm, yarn, pnpm or bun if detect, else null
